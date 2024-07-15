@@ -4,6 +4,7 @@ Upstream repo: https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
 ```
 kubectl create ns argocd-main
 helm install my-release argo/argo-cd
+kubectl apply -f main-argocd-application.yaml -n argocd-main
 ```
 
 
